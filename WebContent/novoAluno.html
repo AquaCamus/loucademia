@@ -1,0 +1,72 @@
+<!-- Cabeï¿½alho - Inicio -->
+
+<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Loucademia</title>
+	</head>
+	
+	<body>
+		<header>
+		<img src = "images/Loucademia_Logotipo.png" />
+		<nav>
+			<div>
+				<a href="novoAluno.html">NOVO ALUNO</a><br>
+				<a href="pesquisaDeAluno.html">PESQUISA</a><br>
+				<a href="controleDeAcesso.html">CONTORLE DE ACESSO</a><br>
+				<a href="relatorioDeEntradaSaida.html">RELATORIO DE ENTRADAS E SAIDAS</a><br>
+				<a href="relatorioDeSituacoes.html">RELATORIO DE SITUACOES</a><br>
+			</div>
+		</nav>
+		</header>
+		<!-- Cabeï¿½alho - Fim -->
+        
+        <h1>Novo Aluno</h1>
+        <div id="infoMessage">(Eventual mensagem do sistema confirmando sucesso ou erro)</div>
+        
+        <br>
+
+        <form>
+
+            <fieldset>
+				
+				<legend>Dados Pessoais</legend>
+				
+                <label for="nome">Nome:</label><br>
+                <input type="text" name = "nome" id = "nome"><br>
+
+                <label for="sexo">Sexo</label><br>
+                <select name="sexo" id="sexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select><br>
+
+                <label for="rg">RG:</label><br>
+                <input type="text" name = "rg" id = "rg"><br>
+                
+                <label for="dataDeNascimento">Data De Nascimento:</label><br>
+                <input type="date" name = "dataDeNascimento" id = "dataDeNascimento"><br>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Situação</legend>
+
+                <label for="situacao">Situação</label><br>
+                <select name="situacao" id="situacao">
+                    <option>Ativo</option>
+                    <option>Inativo</option>
+                    <option>Com pendência</option>
+                </select><br>
+
+            </fieldset>
+            
+        </form>
+
+		<!-- Rodapï¿½ - Inicio -->
+		
+	</body>
+</html>
+<!-- Rodapï¿½ - Fim -->
