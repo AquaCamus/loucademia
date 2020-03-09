@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:jsf="http://xmlns.jcp.org/jsf" lang="pt-br">
+
+<head jsf:id = "head">
+	<meta charset="ISO-8859-1" />
+	<link rel="stylesheet" type="text/css" href="css/loucademia_estilo.css" />
+	<title>Loucademia</title>
+
+	<script>
+		function funcao1()
+		{
+			alert("Eu sou um alert!");
+		}
+	</script>
+
+</head>
+
+<body>
+	<header>
+		<img src="images/Loucademia_Logotipo.png" />
+		<nav>
+			<div>
+				<a jsf:outcome="dadosAluno">NOVO ALUNO</a><br />
+				<a jsf:outcome="pesquisaDeAluno">PESQUISA</a><br />
+				<a jsf:outcome="controleDeAcesso">CONTORLE DE ACESSO</a><br />
+				<a jsf:outcome="relatorioDeEntradaSaida">RELATORIO DE ENTRADAS E SAIDAS</a><br />
+				<a jsf:outcome="relatorioDeSituacoes">RELATORIO DE SITUACOES</a><br />
+			</div>
+		</nav>
+	</header>
+	<!-- Cabe�alho - Fim -->
+
+	<ui:insert name="conteudo" />
+</body>
+
+</html>
+<!-- Rodap� - Fim -->

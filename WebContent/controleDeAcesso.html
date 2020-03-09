@@ -1,0 +1,56 @@
+<!-- Cabe�alho - Inicio -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" type="text/css" href="css/loucademia_estilo.css">
+    <title>Loucademia</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/Loucademia_Logotipo.png" />
+        <nav>
+            <div>
+                <a href="novoAluno.html">NOVO ALUNO</a><br>
+                <a href="pesquisaDeAluno.xhtml">PESQUISA</a><br>
+                <a href="controleDeAcesso.html">CONTORLE DE ACESSO</a><br>
+                <a href="relatorioDeEntradaSaida.html">RELATORIO DE ENTRADAS E SAIDAS</a><br>
+                <a href="relatorioDeSituacoes.html">RELATORIO DE SITUACOES</a><br>
+            </div>
+        </nav>
+    </header>
+    <!-- Cabe�alho - Fim -->
+    <h1>Controle de Acesso</h1>
+    <div id="infoMessage">Mensagem de Sucesso ou Erro</div>
+
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>Parametros de Acesso</legend>
+
+            <table>
+                <tr id="controleDeAcesso">
+                    <td id="tdid"><label for="id">ID:</label></td>
+                    <td id="tdrg"><label for="rg">RG:</label></td>
+                </tr>
+                
+                <tr id="controleDeAcesso">
+                    <td id="tdid"><input type="text" name="id" id="idAcesso"></td>
+                    <td id="tdrg"><input type="text" name="rg" id="rgAcesso"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Liberar" id="submit">
+    </form>
+    <!-- Rodap� - Inicio -->
+
+</body>
+
+</html>
+<!-- Rodap� - Fim -->

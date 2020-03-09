@@ -1,4 +1,4 @@
-package br.com.jg.loucademia;
+package br.com.jg.loucademia.application.config;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.faces.annotation.FacesConfig;

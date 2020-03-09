@@ -1,0 +1,229 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    background-color:#fff;
+    color: steelblue;
+    font-size: 16px;
+    height: 30px;
+    vertical-align: middle;
+    border-left: solid 5px steelblue;
+    border-right: solid 5px steelblue;
+}
+
+h1, fieldset{
+    width: 400px;
+	padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#infoMessage{
+    color: #fff;
+    height: 30px;
+    background-color: #580420;
+    line-height: 30px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset{
+    text-align: left;
+    background-color: #fff;
+    border-left: solid 5px steelblue;
+    border-right: solid 5px steelblue;
+    border-bottom: solid 5px steelblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+legend{
+	font-weight: bold;
+    background-color: #fff;;
+    padding: 10px 10px;
+    color: steelblue;
+    border-bottom: solid 5px steelblue;
+    border-radius: 10px;
+}
+
+input, select{
+    background-color: #dfe2e6;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+select, [type = date]{
+    width: 40%;
+    background-color: #fff;
+    border-color: #7f858d;
+    border-width: 1px;
+}
+
+input[type=text],[type = tel], [type = email]{
+    width: 50%;
+    border-style: none;
+    border-radius: 3px;
+}
+
+input[type=text]#nome, #rua, #email{
+    width: 100%;
+}
+
+input[type = tel]#telefoneCelularDDD, #telefoneFixoDDD, #telefoneDDD{
+	width: 35px;
+}
+
+td#tdid, #tdrg, #tdDataI, #tdDataF{
+    width: 40%;
+}
+
+input#idAcesso, #rgAcesso{
+    width: 95%;
+}
+
+input#dataFinalRel, #dataInicialRel{
+    width: 95%;
+}
+
+input#submit{
+    background-color: #248550;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    width: max-content;
+    height: 30px;
+}
+
+input#submit:hover{
+    background-color: #36c777;
+}
+
+input#submit2{
+    background-color: steelblue;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    width: max-content;
+    height: 30px;
+    margin-left: 10px;
+}
+
+input#submit2:hover{
+    background-color:  rgb(91, 163, 223);
+}
+
+input#editar{
+    background-color: rgb(36, 126, 121);
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    width: max-content;
+    height: 30px;
+    margin-left: 10px;
+}
+
+input#editar:hover{
+    background-color:  rgb(57, 185, 179);
+}
+
+input#excluir{
+    background-color: rgb(202, 58, 58);
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    width: max-content;
+    height: 30px;
+    margin-left: 10px;
+}
+
+input#excluir:hover{
+    background-color:  rgb(236, 71, 71);
+}
+
+hr{
+    border-style: dotted;
+    border-color: #fff;
+    width: 50%;
+    border-width: 0; 
+	height: 1px;
+	border-top-width: 2px;
+}
+
+table{
+    text-align: left;
+}
+
+#relatorios{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+th{
+    background-color: rgb(43, 101, 148);
+    color: #fff;
+}
+
+tr{
+    height: auto;
+}
+
+tr:nth-child(even){
+    background-color: rgb(77, 128, 170);
+    color: #fff;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(36, 93, 139);
+    color: #fff;
+}
+
+tr#controleDeAcesso{
+    height: auto;
+    padding: auto;
+}
+
+tr:nth-child(even)#controleDeAcesso{
+    background-color: #ffffff;
+    color: #000;
+}
+
+tr:nth-child(odd)#controleDeAcesso{
+    background-color: #ffffff;
+    color: #000;
+}

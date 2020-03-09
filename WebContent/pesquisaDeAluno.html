@@ -1,0 +1,98 @@
+<!-- Cabeï¿½alho - Inicio -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" type="text/css" href="css/loucademia_estilo.css">
+    <title>Loucademia</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/Loucademia_Logotipo.png" />
+        <nav>
+            <div>
+                <a href="novoAluno.html">NOVO ALUNO</a><br>
+                <a href="pesquisaDeAluno.html">PESQUISA</a><br>
+                <a href="controleDeAcesso.html">CONTORLE DE ACESSO</a><br>
+                <a href="relatorioDeEntradaSaida.html">RELATORIO DE ENTRADAS E SAIDAS</a><br>
+                <a href="relatorioDeSituacoes.html">RELATORIO DE SITUACOES</a><br>
+            </div>
+        </nav>
+    </header>
+    <!-- Cabeï¿½alho - Fim -->
+    <h1>RELATORIO DE SITUACOES</h1>
+
+    <div id="infoMessage">Mensagem de Sucesso ou Erro</div>
+
+    <br>
+    <form>
+        <fieldset>
+            <legend>Parâmetros de Pesquisa</legend>
+
+            <label for="id">ID:</label><br>
+            <input type="text" name="id" id="id"><br>
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="rg">RG:</label><br>
+            <input type="text" name="rg" id="rg"><br>
+
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" name="telefoneDDD" id="telefoneDDD">            
+            <input type="tel" name="telefone" id="telefone"><br>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Pesquisar" id="submit">
+        <br>
+        <hr>
+        <table id="relatorios">
+            <tr>
+                <th>ID</th>
+                <th>NOME</th>
+                <th>RG</th>
+                <th>E-MAIL</th>
+                <th>SITUAA��O</th>
+                <th>A��ES</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Gabriel</td>
+                <td>111.111.111</td>
+                <td>gabriel@gabriel.com</td>
+                <td>Inativo</td>
+                <td><input type="button" value="Editar" id="editar"> <input type="button" value="Excluir" id="excluir"></td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>Jessica</td>
+                <td>222.222.222</td>
+                <td>jessica@gabriel.com</td>
+                <td>Ativo</td>
+                <td><input type="button" value="Editar" id="editar"> <input type="button" value="Excluir" id="excluir"></td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td>Sensual</td>
+                <td>333.333.333</td>
+                <td>sensuall@gabriel.com</td>
+                <td>Pendente</td>
+                <td><input type="button" value="Editar" id="editar"> <input type="button" value="Excluir" id="excluir"></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+    <!-- Rodapï¿½ - Inicio -->
+
+</body>
+
+</html>
+<!-- Rodapï¿½ - Fim -->

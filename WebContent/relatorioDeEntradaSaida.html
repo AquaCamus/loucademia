@@ -1,0 +1,94 @@
+<!-- Cabeï¿½alho - Inicio -->
+
+<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+        <meta charset="ISO-8859-1">
+        <link rel="stylesheet" type="text/css" href="css/loucademia_estilo.css">
+		<title>Loucademia</title>
+	</head>
+	
+	<body>
+		<header>
+		<img src = "images/Loucademia_Logotipo.png" />
+		<nav>
+			<div>
+				<a href="novoAluno.html">NOVO ALUNO</a><br>
+				<a href="pesquisaDeAluno.xhtml">PESQUISA</a><br>
+				<a href="controleDeAcesso.html">CONTORLE DE ACESSO</a><br>
+				<a href="relatorioDeEntradaSaida.html">RELATORIO DE ENTRADAS E SAIDAS</a><br>
+				<a href="relatorioDeSituacoes.html">RELATORIO DE SITUACOES</a><br>
+			</div>
+		</nav>
+		</header>
+		<!-- Cabeï¿½alho - Fim -->
+        
+        <h1>RELATORIO DE ENTRADAS E SAIDAS</h1>
+
+        <div id = "infoMessage">Mensagem de Sucesso ou Erro</div>
+
+        <br>
+
+        <form action="">
+            <fieldset>
+                <legend>Parâmetros de Pesquisa</legend>
+                
+                <label for="id">ID:</label><br>
+                <input type="text" name="id" id="id"><br>
+
+                <table>
+                    <tr id="controleDeAcesso">
+                        <td id="tdDataI"><label for="dataInicial">Data Inicial:</label></td>
+                        <td id="tdDataF"><label for="dataFinal">Data Final:</label></td>
+                    </tr>
+
+                    <tr id="controleDeAcesso">
+                        <td id="tdDataI"><input type="date" name = "dataInicial" id = "dataInicialRel"></td>
+                        <td id="tdDataF"><input type="date" name = "dataFinal" id = "dataFinalRel"></td>
+                    </tr>
+
+                </table>
+
+            </fieldset><br>
+
+            <input type="submit" value="Gerar Relatório"  id="submit"><br>
+
+            <hr>
+            
+            <table id="relatorios">
+                <tr>
+                    <th>ID</th>
+                    <th>NOME</th>
+                    <th>ENTRADA</th>
+                    <th>SAIDA</th>
+                    <th>DURAÇÃO</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Gabriel</td>
+                    <td>10/02/2018</td>
+                    <td>25/05/2020</td>
+                    <td>11111</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Gabriel</td>
+                    <td>10/02/2018</td>
+                    <td>25/05/2020</td>
+                    <td>11111</td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Gabriel</td>
+                    <td>10/02/2018</td>
+                    <td>25/05/2020</td>
+                    <td>11111</td>
+                </tr>
+            </table>
+        </form>
+
+		<!-- Rodapï¿½ - Inicio -->
+		
+	</body>
+</html>
+<!-- Rodapï¿½ - Fim -->
